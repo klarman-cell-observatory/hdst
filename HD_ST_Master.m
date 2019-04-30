@@ -7,13 +7,14 @@ clear all
 clc
 
 %% Load tsv spot table
-st_spot_table = readtable('CN13_D2_filtered_red_ut.csv','Delimiter','\t');
-%st_spot_table = readtable('CN21_E2_filtered_red_ut.csv','Delimiter','\t');
+%st_spot_table = readtable('CN13_D2_filtered_red_ut.csv','Delimiter','\t');
+st_spot_table = readtable('CN21_E2_filtered_red_ut.csv','Delimiter','\t');
 
 %% Load mask
-st_sc_mask_raw = imread('CN13_D2_HE_Probabilities_mask.tiff');
+%st_sc_mask_raw = imread('CN13_D2_HE_Probabilities_mask.tiff');
+st_sc_mask_raw = imread('CN21_E2_HE_Probabilities_mask.tiff');
 st_sc_mask= flipud(st_sc_mask_raw);
-%st_sc_mask = imread('CN21_E2_HE_Probabilities_mask.tiff');
+
 
 % Extract x and y from regionprops
 mask_centroid = regionprops(st_sc_mask,'centroid');
@@ -60,7 +61,7 @@ figure()
 scatter(st_spot_table.spot_px_x,st_spot_table.spot_px_y);
 
 %% Export CSV
+%writetable(export_table,'CellID_Spot_Position_CN13_D2_filtered_red_ut.csv');
 writetable(export_table,'CellID_Spot_Position_CN21_E2_filtered_red_ut.csv');
-
 end
 
