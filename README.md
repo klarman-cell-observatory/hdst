@@ -38,13 +38,13 @@ We recommed using the `Bulk Download` function and to consult the `Metadata` fil
 #### `*HE_Probabilities_mask.tiff` files are coordinates of segmented nuclei based on corresponding HE images
 
 # Alignment
-This is [code](https://github.com/broadinstitute/hdst/tree/master/alignment) for aligning HE images to (x,y) barcode coordiantes as given by ST Pipeline ([v.1.5.1](https://github.com/SpatialTranscriptomicsResearch/st_pipeline/releases/tag/1.5.1)). 
+This is [code](./alignment) for aligning HE images to (x,y) barcode coordiantes as given by ST Pipeline ([v.1.5.1](https://github.com/SpatialTranscriptomicsResearch/st_pipeline/releases/tag/1.5.1)). 
 
 # Segmentation
 HE image segmentation was performed by combining Ilastik and CellProfiler. The labeled segmentation mask was used to assign the individual spots to the corresponding Cell ID. The output CSV file includes Cell IDs, X and Y position of the cells (centroid) and the corresponding spots.
 
 # Cell typing 
-This is code for imputing cell types onto (x,y) spatial positions based on scRNA-seq data. 
+This is [code](./cell_typing) for imputing cell types onto (x,y) spatial positions based on scRNA-seq data. 
 
 # Differential expression (DE) analysis
-This is code for DE analysis between annotated regions.
+This is [code](./Differential%20expression) for DE analysis between annotated regions.
