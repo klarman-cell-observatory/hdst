@@ -8,7 +8,7 @@ Please cite: Vickovic S et al. High-density spatial transcriptomics arrays for i
 ![github-small](https://github.com/broadinstitute/hdst/blob/master/hdst.png)
 
 # File Structure Overview
-All processed files are available at: https://portals.broadinstitute.org/single_cell/study/SCP446
+All processed files are available at: https://portals.broadinstitute.org/single_cell/study/SCP420
 
 There is a total of 36 files currenlty uploaded with the study: 
 
