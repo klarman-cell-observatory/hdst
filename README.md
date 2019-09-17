@@ -1,6 +1,6 @@
 # HDST
 
-This is a public repository for all code connected to HDST (High-density spatial transcriptomics). The manuscript is currently available on bioRxiv (https://www.biorxiv.org/content/10.1101/563338v2). 
+This is a public repository for all code connected to HDST (High-definition spatial transcriptomics).
 
 Please cite: Vickovic S et al. High-definition spatial transcriptomics  for in situ tissue profiling. Nat Methods 2019: doi: https://doi.org/10.1038/s41592-019-0548-y
 
