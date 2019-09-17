@@ -19,10 +19,10 @@ We recommed using the `Bulk Download` function and to consult the `Metadata` fil
 #### `*red_ut*`files: Sorted counts tsv files with:
 
 `bc` barcode (XxY) coordinate  
-`spot_px_x` representing (x) pixel coordinate in the HE image and `X`in `bc` 
-`spot_px_y` representing (y) pixel coordinate in the HE image and `Y`in `bc 
-`gene` representing the gene name 
-`count` representing UMI filtered expressed counts per corresponding gene 
+`spot_px_x` representing (x) pixel coordinate in the HE image and `X`in `bc`   
+`spot_px_y` representing (y) pixel coordinate in the HE image and `Y`in `bc`  
+`gene` representing the gene name  
+`count` representing UMI filtered expressed counts per corresponding gene  
 
 (Note: spatial resolution is marked as `HDST`, `5x` or `segments`in all file names) 
 
