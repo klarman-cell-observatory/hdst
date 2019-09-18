@@ -10,8 +10,6 @@ Please cite: Vickovic S et al. High-definition spatial transcriptomics  for in s
 # File Structure Overview
 All processed files are available at: https://portals.broadinstitute.org/single_cell/study/SCP420
 
-There is a total of 36 files currenlty uploaded with the study: 
-
 ![github-small](https://github.com/broadinstitute/hdst/blob/master/files.png)
 
 We recommed using the `Bulk Download` function and to consult the `Metadata` file. 
@@ -36,6 +34,11 @@ We recommed using the `Bulk Download` function and to consult the `Metadata` fil
 #### `*HE.png` files are HE images used in the study 
 
 #### `*HE_Probabilities_mask.tiff` files are coordinates of segmented nuclei based on corresponding HE images
+
+#### Files needed to run the ST pipeline:
+##### `*.fastq` raw seq data with encoded barcode information
+##### `*barcode_ids.tsv` (x,y) barcodes files needed for demultiplexing
+
 
 # Alignment
 This is [code](./alignment) for aligning HE images to (x,y) barcode coordiantes as given by ST Pipeline ([v.1.5.1](https://github.com/SpatialTranscriptomicsResearch/st_pipeline/releases/tag/1.5.1)). 
