@@ -37,7 +37,7 @@ We recommed using the `Bulk Download` function and to consult the `Metadata` fil
 
 #### Files needed to run the ST pipeline:
 ##### `*.fastq` raw seq data with encoded barcode information
-##### `*barcode_ids.tsv` (x,y) barcodes files needed for demultiplexing
+##### `*barcode_ids.tsv` ids files needed for demultiplexing
 
 
 # Alignment
